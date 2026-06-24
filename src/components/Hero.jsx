@@ -6,6 +6,7 @@
 
 import CaseResultCard from './CaseResultCard'
 
+
 export default function Hero() {
   return (
     <section
@@ -85,14 +86,15 @@ export default function Hero() {
           relative here so the absolutely-positioned CaseResultCard
           is positioned relative to this div, not the whole page
         */}
-        <div className="relative hidden lg:block">
+        <div className="relative block">
 
           {/* Attorney photo */}
          <img
-  src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800"
-  alt="Harrison and Cole attorneys"
-  className="w-full h-[600px] object-cover rounded-2xl"
-/>
+            src="/images/lawyers.jpg"
+            alt="Harrison and Cole attorneys"
+            className="w-full h-[600px] object-cover rounded-2xl"
+            // object-cover: fills the box without stretching, crops if needed
+          />
 
           {/* Dark gradient overlay — fades the left edge of the photo
               so it blends into the dark background */}
