@@ -88,11 +88,11 @@ export default function Hero() {
         <div className="relative hidden lg:block">
 
           {/* Attorney photo */}
-          <img
-            src="/images/lawyers.jpg"
-            alt="Harrison and Cole attorneys"
-            className="w-full h-[600px] object-cover rounded-2xl"
-          />
+         <img
+  src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800"
+  alt="Harrison and Cole attorneys"
+  className="w-full h-[600px] object-cover rounded-2xl"
+/>
 
           {/* Dark gradient overlay — fades the left edge of the photo
               so it blends into the dark background */}
